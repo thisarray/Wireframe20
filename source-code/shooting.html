@@ -22,9 +22,9 @@ body {
 
 <body>
 <section id="imageLoader" class="hidden">
-  <img class="hidden" src="images/bullet.png" alt="bullet">
-  <img class="hidden" src="images/crosshair.png" alt="crosshair">
-  <img class="hidden" src="images/enemy.png" alt="enemy">
+  <img class="hidden" src="images/bullet.png" alt="bullet" data-name="bullet">
+  <img class="hidden" src="images/crosshair.png" alt="crosshair" data-name="crosshair">
+  <img class="hidden" src="images/enemy.png" alt="enemy" data-name="enemy">
 </section>
 
 <main>
@@ -122,7 +122,7 @@ def draw():
 <script>
 WIDTH = 800;
 HEIGHT = 800;
-MAXBULLETS = 8;
+const MAXBULLETS = 8;
 
 var crosshair, enemies, numberofbullets;
 
